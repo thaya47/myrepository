@@ -14,9 +14,9 @@ int main()
         a /= 10;
     }
         if (givenInteger == reversedInteger)
-        printf("%d is a palindrome.", givenInteger);
+        printf("yes");
     else
-        printf("%d is not a palindrome.", givenInteger);
+        printf("no");
     
     getch();
 }
